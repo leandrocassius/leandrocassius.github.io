@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leandro Cassius | Data Scientist</title>
+  <meta name="description" content="Data Scientist | Experimentation | NLP | Content Analysis">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="scanline"></div>
+  <div class="noise"></div>
+
+  <header class="terminal-header">
+    <div class="window-bar">
+      <span class="dot red"></span>
+      <span class="dot yellow"></span>
+      <span class="dot green"></span>
+      <span class="title">leandro@portfolio:~</span>
+    </div>
+    <div class="hero">
+      <pre class="ascii-art" aria-hidden="true">
+╭───────────────────────────────────────────╮
+│  LEANDRO CASSIUS                     [·]
+│  Data Scientist · NLP · Analytics    [·]
+╰───────────────────────────────────────────╯</pre>
+      <p class="tagline">Data Scientist | Experimentation | NLP | Content Analysis</p>
+      <p class="subtitle">Limassol, Cyprus</p>
+      <div class="prompt-line">
+        <span class="prompt">$</span>
+        <span class="typed" id="typed"></span>
+        <span class="cursor" aria-hidden="true">█</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="terminal-block" data-cmd="cat about.txt">
+      <div class="cmd-line"><span class="user">leandro@portfolio</span><span class="path">:~</span> cat about.txt</div>
+      <div class="output">
+        <h2>Professional Summary</h2>
+        <p>Data Scientist with 4+ years of experience driving revenue impact through experimentation, predictive modeling, and large-scale data analysis. Proven track record of analyzing content using ML models, designing A/B tests, and translating complex data into clear commercial decisions in the content industry.</p>
+        <h2>Languages</h2>
+        <p>Portuguese (Native) · English (Fluent) · Spanish (Fluent) · Russian (Fluent) · Italian (Advanced)</p>
+      </div>
+    </section>
+
+    <section class="terminal-block" data-cmd="cat skills.txt">
+      <div class="cmd-line"><span class="user">leandro@portfolio</span><span class="path">:~</span> cat skills.txt</div>
+      <div class="output">
+        <h2>Core Competencies</h2>
+        <ul class="skills-grid">
+          <li><span class="bullet">➔</span> Predictive Modeling</li>
+          <li><span class="bullet">➔</span> NLP & Text Mining</li>
+          <li><span class="bullet">➔</span> Data Engineering & API Pipelines</li>
+          <li><span class="bullet">➔</span> Data Cleaning & Feature Engineering</li>
+          <li><span class="bullet">➔</span> Analytical Automation</li>
+          <li><span class="bullet">➔</span> Data Visualization & Exploratory Analysis</li>
+          <li><span class="bullet">➔</span> Experimentation & A/B Test Analysis</li>
+          <li><span class="bullet">➔</span> Marketing & Funnel Analytics</li>
+        </ul>
+        <p class="tech-stack">
+        Python · Pandas · Scikit-learn · SQL · BigQuery · Matplotlib · Seaborn · YouTube API · Tableau
+        </p>
+      </div>
+    </section>
+
+    <section class="terminal-block" data-cmd="cat experience.txt">
+      <div class="cmd-line"><span class="user">leandro@portfolio</span><span class="path">:~</span> cat experience.txt</div>
+      <div class="output">
+        <h2>Professional Experience</h2>
+        <article class="job">
+          <h3>TheSoul Group <span class="meta">— Data Analyst (NLP, Content Insights) · 2024–Present</span></h3>
+          <ul>
+            <li>Development of a content unit economics model for YouTube and Facebook integrating posting cadence, view decay curves, RPM distributions, and marginality analysis to estimate lifecycle value, diminishing returns, and publication capacity constraints</li>
+            <li>Implementation of NLP-based trend detection pipelines using TF-IDF feature extraction, K-means clustering, and Naive Bayes classification with a lemmatization pipeline to analyze keyword patterns in AI-focused YouTube channels</li>
+            <li>Design of an automated YouTube API ingestion pipeline to collect channel, video, and metadata datasets, enabling competitive benchmarking and downstream NLP-based trend analysis</li>
+            <li>Engineering of Python-based data validation and preprocessing workflows using pandas for missing-data diagnostics, dataset cleaning, and lightweight feature engineering to support analytical and forecasting models</li>
+            <li>Development of automated visualization workflows using seaborn to generate trend and distribution charts, supporting interpretation of NLP signals, performance patterns, and content lifecycle dynamics</li></ul>
+        </article>
+        <article class="job">
+          <h3>Kaverto <span class="meta">— Data Analyst (Marketing & Experimentation) · 2022–2024</span></h3>
+          <ul>
+            <li>Implementation of structured A/B testing analysis pipelines for paid acquisition channels using Python (pandas) and SQL to compute campaign-level performance metrics, statistical comparisons, and ROI attribution</li>
+            <li>Development of behavioral segmentation datasets through SQL-based user aggregation and Python-based exploratory analysis to identify retention patterns and inform lifecycle messaging strategies</li>
+            <li>Construction of marketing funnel performance analysis workflows using SQL and Python to evaluate conversion stages, detect drop-off points, and support data-driven budget allocation decisions</li>
+            <li>Development of automated exploratory visualization workflows using matplotlib, seaborn, and plotly to analyze acquisition performance, cohort retention, and funnel conversion trends</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="terminal-block" data-cmd="ls projects/">
+      <div class="cmd-line"><span class="user">leandro@portfolio</span><span class="path">:~</span> ls projects/</div>
+      <div class="output">
+        <h2>Early Career Projects</h2>
+        <div class="project-list">
+          <a href="https://github.com/leandrocassius/data-analytics-portfolio/tree/main/hotel-cancellation-xgboost" target="_blank" rel="noopener noreferrer" class="project-link">
+            <span class="project-name">hotel-cancellation-xgboost/</span>
+            <span class="project-desc">XGBoost classifier · ROC-AUC · Stratified K-Fold</span>
+          </a>
+          <a href="https://github.com/leandrocassius/data-analytics-portfolio/tree/main/car-accident-severity" target="_blank" rel="noopener noreferrer" class="project-link">
+            <span class="project-name">car-accident-severity/</span>
+            <span class="project-desc">EDA · XGBoost · pipelines · encoding</span>
+          </a>
+          <a href="https://github.com/leandrocassius/data-analytics-portfolio/tree/main/algorithmic-trading-moving-averages" target="_blank" rel="noopener noreferrer" class="project-link">
+            <span class="project-name">algorithmic-trading-moving-averages/</span>
+            <span class="project-desc">Time series · moving averages · backtest</span>
+          </a>
+          <a href="https://github.com/leandrocassius/data-analytics-portfolio/tree/main/store-performance-bigquery" target="_blank" rel="noopener noreferrer" class="project-link">
+            <span class="project-name">store-performance-bigquery/</span>
+            <span class="project-desc">BigQuery · SQL · Google Analytics</span>
+          </a>
+        </div>
+        <p class="links">
+          <a href="https://github.com/leandrocassius/data-analytics-portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <span class="separator">·</span>
+          <a href="https://www.linkedin.com/in/leandrocassius" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <span class="separator">·</span>
+          <a href="https://www.kaggle.com/leandrocassius" target="_blank" rel="noopener noreferrer">Kaggle</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="terminal-block" data-cmd="cat education.txt">
+      <div class="cmd-line"><span class="user">leandro@portfolio</span><span class="path">:~</span> cat education.txt</div>
+      <div class="output">
+        <h2>Education</h2>
+        <p><strong>B.Sc. Economics</strong> — Higher School of Economics</p>
+      </div>
+    </section>
+
+    <section class="terminal-block" data-cmd="open certificates/">
+      <div class="cmd-line"><span class="user">leandro@portfolio</span><span class="path">:~</span> open certificates/</div>
+      <div class="output">
+        <h2>Certificate</h2>
+        <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/N6DC2XGMFHA8" target="_blank" rel="noopener noreferrer" class="certificate-link">
+          <span class="cert-name">Google Data Analytics Professional Certificate</span>
+          <span class="cert-meta">Coursera · 2022</span>
+        </a>
+        <p class="cert-desc">Specialization in data analysis with SQL, R, Tableau, and Google BigQuery — verify on Coursera.</p>
+      </div>
+    </section>
+
+    <section class="terminal-block contact-block" data-cmd="contact">
+      <div class="cmd-line"><span class="user">leandro@portfolio</span><span class="path">:~</span> contact</div>
+      <div class="output">
+        <p><a href="mailto:leandro.the.cassius@gmail.com" class="contact-link">leandro.the.cassius@gmail.com</a></p>
+        <p><a href="https://t.me/Leandro_Cassius" class="contact-link">@Leandro_Cassius</a></p>
+        <p class="cta">I am friendly, just socially awkward! Connect with me about Data Science & Analytics!</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="terminal-footer">
+    <div class="prompt-line">
+      <span class="prompt">$</span>
+      <span class="blink">_</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
