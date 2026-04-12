@@ -305,6 +305,13 @@ main {
   color: var(--fg-secondary);
 }
 
+.project-private {
+  font-size: 0.75rem;
+  color: var(--accent-orange);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
 .links {
   margin-top: 1rem !important;
 }
